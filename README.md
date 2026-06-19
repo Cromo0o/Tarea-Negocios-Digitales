@@ -2,8 +2,6 @@
 
 Este repositorio contiene el desarrollo de una actividad práctica enfocada en el diseño, cálculo y visualización de Indicadores Clave de Rendimiento (KPIs) aplicados al comercio electrónico. El objetivo principal es demostrar cómo los Sistemas de Información de Gestión (MIS) transforman datos operativos crudos en conocimiento estratégico para la toma de decisiones gerenciales.
 
-La actividad está estructurada de manera lógica en dos partes complementarias:
-
 ---
 
 ## Estructura del Proyecto
@@ -36,12 +34,6 @@ Esta segunda sección trabaja sobre un conjunto de datos estructurado de una tie
    * Monitoreo del Índice de Satisfacción del Cliente (CSAT) segmentado por infraestructura logística (bloques de bodega).
    * Cálculo de la Tasa de Retención para clasificar la base de datos entre clientes nuevos y recurrentes.
    * Medición de la carga del soporte post-venta analizando la cantidad promedio de llamadas según la calificación otorgada por el usuario.
-
----
-
-## Metodología y Buenas Prácticas de Desarrollo
-
-El proyecto se implementó bajo una arquitectura limpia y secuencial dentro de un entorno de cuadernos interactivos, asegurando la separación de capas:
 
 * **Procesamiento de Datos (Back-End):** Uso exclusivo de la librería `Pandas` para la manipulación masiva de datos y agrupaciones numéricas rápidas mediante operaciones vectorizadas (`.groupby()`, `.mean()`, `.sum()`). Las salidas técnicas de consola se limpiaron omitiendo metadatos redundantes para una lectura ejecutiva.
 * **Visualización de Datos (Front-End):** Uso de `Matplotlib` para generar gráficos de barras simples, barras agrupadas y diagramas de pastel. Los gráficos están diseñados para una interpretación gerencial inmediata, aplicando transformaciones de unidades (como gramos a kilogramos) y escalas normalizadas.
