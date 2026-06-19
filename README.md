@@ -35,5 +35,5 @@ Esta segunda sección trabaja sobre un conjunto de datos estructurado de una tie
    * Cálculo de la Tasa de Retención para clasificar la base de datos entre clientes nuevos y recurrentes.
    * Medición de la carga del soporte post-venta analizando la cantidad promedio de llamadas según la calificación otorgada por el usuario.
 
-* **Procesamiento de Datos (Back-End):** Uso exclusivo de la librería `Pandas` para la manipulación masiva de datos y agrupaciones numéricas rápidas mediante operaciones vectorizadas (`.groupby()`, `.mean()`, `.sum()`). Las salidas técnicas de consola se limpiaron omitiendo metadatos redundantes para una lectura ejecutiva.
-* **Visualización de Datos (Front-End):** Uso de `Matplotlib` para generar gráficos de barras simples, barras agrupadas y diagramas de pastel. Los gráficos están diseñados para una interpretación gerencial inmediata, aplicando transformaciones de unidades (como gramos a kilogramos) y escalas normalizadas.
+* **Procesamiento de Datos:** Uso exclusivo de la librería `Pandas` para la manipulación masiva de datos y agrupaciones numéricas rápidas mediante operaciones vectorizadas (`.groupby()`, `.mean()`, `.sum()`). Las salidas técnicas de consola se limpiaron omitiendo metadatos redundantes para una lectura ejecutiva.
+* **Visualización de Datos:** Uso de `Matplotlib` para generar gráficos de barras simples, barras agrupadas y diagramas de pastel. Los gráficos están diseñados para una interpretación gerencial inmediata, aplicando transformaciones de unidades (como gramos a kilogramos) y escalas normalizadas.
